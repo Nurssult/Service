@@ -103,3 +103,7 @@ The default port is:
 - Spring Boot 3.5.6
 - Maven
 - HTTP
+
+## Project status
+
+This project implements the INF 345 Week 3 HTTP service contract.
