@@ -41,6 +41,12 @@ if [ "$(curl -s "http://localhost:$PORT/healthz")" = "OK" ]; then
     PASSED=$((PASSED + 1))
 fi
 
+# Test 4: / returns the expected message
+TESTS=$((TESTS + 1))
+if [ "$(curl -s "http://localhost:$PORT/")" = "M1 HTTP Service" ]; then
+    PASSED=$((PASSED + 1))
+fi
+
 echo "TESTS: $PASSED/$TESTS"
 
 if [ "$PASSED" -eq "$TESTS" ]; then
