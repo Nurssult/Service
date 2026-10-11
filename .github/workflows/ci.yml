@@ -30,5 +30,6 @@ jobs:
         with:
           distribution: temurin
           java-version: "21"
+          cache: maven
 
       - run: ./scripts/test.sh
