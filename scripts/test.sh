@@ -43,7 +43,7 @@ fi
 
 # Test 4: / returns the expected message
 TESTS=$((TESTS + 1))
-if [ "$(curl -s "http://localhost:$PORT/")" = "WRONG MESSAGE" ]; then
+if [ "$(curl -s "http://localhost:$PORT/")" = "M1 HTTP Service" ]; then
     PASSED=$((PASSED + 1))
 fi
 
