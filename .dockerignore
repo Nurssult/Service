@@ -1,0 +1,17 @@
+
+.git
+.github
+.env
+.env.*
+*.pem
+*.key
+.venv
+venv
+node_modules
+**/__pycache__
+build
+target
+.idea
+.vscode
+.DS_Store
+*.log
