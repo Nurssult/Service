@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: service-config
+data:
+  PORT: "8080"
+  GREETING: "M1 HTTP Service"
