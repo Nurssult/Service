@@ -21,7 +21,7 @@ spec:
           type: RuntimeDefault
       containers:
         - name: app
-          image: ghcr.io/nurssult/service:932234bc55955165ddc286d56142a6f57961c5de
+          image: ghcr.io/nurssult/service:2b356d360e188bf32b09bcc66461b55037a99f8d
           ports:
             - name: http
               containerPort: 8080
